@@ -5,6 +5,7 @@ import LandingPage from "./components/LandingPage/LandingPage";
 import About from "./components/About/About";
 import OurRooms from "./components/OurRooms/OurRooms";
 import Gallery from "./components/Gallery/Gallery";
+import ContactUs from "./components/ContactUs/ContactUs"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <OurRooms />
       <Gallery />
+      <ContactUs />
     </div>
   );
 }
