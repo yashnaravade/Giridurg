@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import OurRooms from "./components/OurRooms/OurRooms";
 import Gallery from "./components/Gallery/Gallery";
 import ContactUs from "./components/ContactUs/ContactUs"
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <OurRooms />
       <Gallery />
       <ContactUs />
+      <Footer />
     </div>
   );
 }
