@@ -1,0 +1,17 @@
+.text-center {
+  margin-bottom: 40px;
+}
+
+.gallery-image {
+  border: 3px solid #fff; /* Add a border around images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to images */
+  transition: transform 0.3s ease; /* Smooth transform transition */
+
+  max-width: 300px;
+  max-height: 300px;
+  margin: auto;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05); /* Scale images slightly on hover */
+}
