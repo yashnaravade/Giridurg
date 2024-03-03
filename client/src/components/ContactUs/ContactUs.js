@@ -1,4 +1,5 @@
 import React from "react";
+import "./ContactUs.css";
 
 function ContactUs() {
   return (
@@ -34,7 +35,11 @@ function ContactUs() {
               <label htmlFor="message" className="form-label">
                 Message
               </label>
-              <textarea className="form-control" id="message" rows="4"></textarea>
+              <textarea
+                className="form-control"
+                id="message"
+                rows="4"
+              ></textarea>
             </div>
             <button type="submit" className="btn btn-primary">
               Send Message

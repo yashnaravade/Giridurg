@@ -1,0 +1,23 @@
+.text-center {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  border-radius: 20px; /* Add border radius to form inputs */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Blue background color for button */
+  color: #fff; /* White text color for button */
+  font-weight: bold; /* Bold text for button */
+  border: none; /* Remove button border */
+  border-radius: 20px; /* Add border radius to button */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue background color on hover */
+}
+
+iframe {
+  border-radius: 20px; /* Add border radius to Google Map iframe */
+}
