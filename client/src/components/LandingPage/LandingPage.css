@@ -1,0 +1,54 @@
+/* Custom styles for the carousel */
+.carousel {
+  margin-top: 20px; /* Add some space at the top */
+  position: relative; /* Set position to relative for absolute positioning of images */
+}
+
+.carousel-inner {
+  border-radius: 10px; /* Rounded corners for the carousel */
+  overflow: hidden; /* Hide overflow content */
+  position: relative; /* Set position to relative for absolute positioning of images */
+}
+
+.carousel-item {
+  transition: transform 0.5s ease; /* Smooth transform transition */
+}
+
+.carousel-item.active {
+  transform: translateX(0); /* Move active slide to center */
+}
+
+.carousel-item-next,
+.carousel-item-prev {
+  position: absolute; /* Position next and prev slides absolutely */
+  top: 0;
+  width: 100%;
+}
+
+.carousel-item-next {
+  transform: translateX(100%); /* Move next slide to the right */
+}
+
+.carousel-item-prev {
+  transform: translateX(-100%); /* Move prev slide to the left */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Semi-transparent black background for control buttons */
+  border-radius: 50%; /* Round the control buttons */
+  width: 40px; /* Set a fixed width for the control buttons */
+  height: 40px; /* Set a fixed height for the control buttons */
+  top: 50%; /* Position the control buttons in the middle vertically */
+  transform: translateY(-50%); /* Center the control buttons vertically */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  font-size: 24px; /* Set the icon size */
+}
