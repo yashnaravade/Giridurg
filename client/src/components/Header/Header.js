@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../assets/logo.png";
+import "./Header.css";
 
 function Header() {
   return (
@@ -22,10 +23,16 @@ function Header() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <div className="mx-auto"> {/* Center the ul */}
+            <div className="mx-auto">
+              {" "}
+              {/* Center the ul */}
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a
+                    className="nav-link active fw-bold"
+                    aria-current="page"
+                    href="#"
+                  >
                     Home
                   </a>
                 </li>
@@ -63,15 +70,17 @@ function Header() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link"  href="/contactus">
+                  <a className="nav-link" href="/contactus">
                     Contact Us
                   </a>
                 </li>
               </ul>
             </div>
-            <div className="ml-auto"> {/* Right-align the login/signup button */}
-              <button className="btn btn-primary">Login</button>
-              <button className="btn btn-secondary ml-2">Signup</button>
+            <div className="ml-auto">
+              {" "}
+              {/* Right-align the login/signup button */}
+              <button className="btn btn-primary mx-2">Login</button>
+              <button className="btn btn-secondary ml-2 mx-2">Signup</button>
             </div>
           </div>
         </div>
