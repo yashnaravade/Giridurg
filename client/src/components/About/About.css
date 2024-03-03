@@ -1,0 +1,21 @@
+.img-fluid {
+  border: 1px solid #ddd; /* Add a border to the image */
+  border-radius: 5px; /* Add a border radius to the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the image */
+  transition: transform 0.3s ease; /* Smooth transform transition */
+}
+
+.img-fluid:hover {
+  transform: scale(1.05); /* Scale the image slightly on hover */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Blue background color for primary button */
+  color: #fff; /* White text color for primary button */
+  font-weight: bold; /* Bold text for button */
+  border: none; /* Remove button border */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue background color on hover */
+}
