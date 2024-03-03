@@ -5,7 +5,7 @@ import aboutImage from "../../assets/IMG-20240215-WA0049.jpg";
 function About() {
   return (
     <div className="container mt-5">
-      <h2 className="text-center mb-2">About Us</h2>
+      <h2 className="text-center mb-2 text-dark">About Us</h2>
       <div className="underline mb-4"></div>
       <div className="row align-items-center">
         {/* Image Column */}
