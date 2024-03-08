@@ -1,14 +1,15 @@
 import React from "react";
+import "./Footer.css";
 import Logo from "../../assets/logo.png";
 
 function Footer() {
   return (
-    <footer className="mt-5 py-4">
+    <footer className="mt-5 py-4 bg-dark text-light">
       <div className="container">
         <div className="row">
           {/* First Column - Logo */}
           <div className="col-md-3">
-            <span className="footer-brand">Your Hotel</span>
+            <img src={Logo} alt="Your Hotel" className="footer-logo" />
           </div>
 
           {/* Second Column - Navigation Links */}
@@ -50,18 +51,20 @@ function Footer() {
           <div className="col-md-3">
             <h5>Hotel Information</h5>
             <ul className="list-unstyled">
-              <li>Name: Your Hotel</li>
+              <li>Name: Hotel Giridurg</li>
               <li>Email: hotel@example.com</li>
               <li>Phone: +123 456 7890</li>
-              <li>Address: 123 Main Street, Cityville</li>
+              <li>Address: 123 Main Street, Pargad</li>
             </ul>
           </div>
         </div>
 
         <hr className="my-4" />
 
-        <div className="text-center">
-          <p>&copy; {new Date().getFullYear()} Your Hotel. All rights reserved.</p>
+        <div className="text-center text-light">
+          <p>
+            &copy; {new Date().getFullYear()} Your Hotel. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
