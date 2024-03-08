@@ -2,7 +2,7 @@ import React from 'react';
 import banner1 from '../../assets/IMG-20240215-WA0008.jpg';
 import banner2 from '../../assets/IMG-20240215-WA0009.jpg';
 import banner3 from '../../assets/IMG-20240215-WA0010.jpg';
-
+import "./LandingPage.css"
 
 function LandingPage() {
   return (
